@@ -1,19 +1,20 @@
 import SettingsIcon from "@mui/icons-material/Settings";
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
+import FlexWrapper from "../FlexWrapper";
 
 const Logo = () => {
   return (
-    <Box sx={{ display: "inline-flex", alignItems: "center", gap: "5px" }}>
+    <FlexWrapper sx={{ gap: "5px" }}>
       <SettingsIcon color="primary" fontSize="large" />
       <Typography
         variant="h5"
-        component="h1"
+        component="h3"
         color="secondary"
-        fontWeight={700}
+        fontWeight={900}
       >
         Sinaux
       </Typography>
-    </Box>
+    </FlexWrapper>
   );
 };
 
