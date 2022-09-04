@@ -11,11 +11,9 @@ const Right = () => {
   return (
   <div className='bg-image'>
     <RightMenu/>
-    {/* <AccountMenu/> */}
     <SideContent/>
     <SocialMedia/>
   </div>
-  )
-};
+  )}
 
-export default Right;
+export default Right
