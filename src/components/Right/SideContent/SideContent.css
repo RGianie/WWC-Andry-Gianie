@@ -1,17 +1,15 @@
-.side-content{
-    height: 320px;
-    width: 30%;
-    margin-top: -12%;
-    margin-left: 80%;
-    
-    padding: 20px;
- background-color: rgb(165, 104, 42);
-
+.side-content {
+  height: 320px;
+  width: 30%;
+  margin-top: -12%;
+  margin-left: 80%;
+  padding: 20px;
+  background-color: #df9856;
 }
 
-.para{
-    color: white;
-    text-align: left;
-    font-size: medium;
-    margin-top: 120%;
+.para {
+  color: white;
+  text-align: left;
+  font-size: medium;
+  margin-top: 120%;
 }
