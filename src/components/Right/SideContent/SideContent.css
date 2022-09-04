@@ -1,0 +1,17 @@
+.side-content{
+    height: 320px;
+    width: 30%;
+    margin-top: -12%;
+    margin-left: 90%;
+    float: right;
+    padding: 20px;
+ background-color: rgb(165, 104, 42);
+
+}
+
+.para{
+    color: white;
+    text-align: left;
+    font-size: medium;
+    margin-top: 100%;
+}

@@ -1,0 +1,16 @@
+body{
+  background-image: url("../study.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: 98% 15%; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 600px;
+  background-attachment :scroll;
+}
+
+.menu{
+margin-left: 12%;
+width: 78%;
+float: left;
+
+}
