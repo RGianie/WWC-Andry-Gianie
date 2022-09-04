@@ -39,7 +39,7 @@ const RightMenu = () => {
 
   
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#cccccc16', width: '80%', marginLeft: '15%'}}>
+    <AppBar position="static" sx={{ backgroundColor: '#cccccc16', width: '80%', marginLeft: '18%', boxShadow:'none'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
@@ -145,7 +145,7 @@ const RightMenu = () => {
       </Button>
       <Button
         onClick={handleCloseNavMenu}
-        sx={{ my: 2, color: 'white', display: 'block' , marginLeft: '7%'}}
+        sx={{ my: 2, color: 'white', display: 'block' , marginLeft: '10%'}}
         >
         Sign in 
             <ArrowForwardOutlinedIcon sx={{ color: 'white' ,fontSize: '90%'}}/>

@@ -3,12 +3,13 @@ import AccountMenu from './Menu/Menu';
 import RightMenu from './Menu/Menu2';
 import SideContent from './SideContent/SideContent';
 import SocialMedia from './SocialMedia/SocialMedia';
+import './Menu/Menu.css'
 
 
 
 const Right = () => {
   return (
-  <div>
+  <div className='bg-image'>
     <RightMenu/>
     {/* <AccountMenu/> */}
     <SideContent/>
